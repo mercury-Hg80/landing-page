@@ -13,16 +13,23 @@ body {
     flex-direction: column;
 }
 
+.header-color {
+    background-color: #1F2937;
+}
+
 .header {
     flex:1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .header-logo {
+    display: flex;
     font-size: 24px;
-    color: #F9FAF8
+    font-weight: 500;
+    color: #F9FAF8;
+    margin-bottom: 100px;
 }
 
 ul {
@@ -43,10 +50,22 @@ a {
 }
 
 .title {
+    display: flex;
     font-weight: 900;
     font-size: 48px;
     color: #F9FAF8;
+    margin-left: 150px;
 }
+
+.title-subcontext {
+    display:flex;
+    font-size: 18px;
+    color: #F9FAF8;
+    margin-left: 150px;
+}
+/* COME HERE FIRST */
+
+
 
 .center-info {
     font-size: 36px;
@@ -54,6 +73,7 @@ a {
     font-weight: 900;
     margin-bottom: 30px;
     text-align: center;
+    margin-top: 45px;
 }
 
 .center-content-container {
@@ -101,22 +121,47 @@ a {
 
 }
 button {
-    color: #3882f6
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: transparent;
 }
 
 
+
+
 .testimonial {
-    display: flex;
-    flex-direction: column;
+    box-sizing: border-box;
+    display: block;
     background: #e5e7eb;
     margin-top:100px;
     margin-bottom:50px;
+    padding: 100px;
+    border: 6rem solid;
+    border-color:#e5e7eb;
 }
 
 .testimonial-text {
     font-size: 36px;
     font-style: italic;
-    padding: 100px;
+    font-weight: lighter;
+    padding: 170px;
+}
+
+.testimonial-writer {
+    display:flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-right: 200px;
+    margin-top: -120px;
+    
 }
 
 .call-to-action-banner {

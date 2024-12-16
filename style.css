@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 15px;
 }
 
 .header-logo {
@@ -30,7 +31,16 @@ body {
     font-weight: 500;
     color: #F9FAF8;
     margin-bottom: 100px;
+    margin-top: 15px;
 }
+
+.header-links {
+    display:flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: -80px;
+}
+
 
 ul {
     list-style-type: none;
@@ -62,6 +72,7 @@ a {
     font-size: 18px;
     color: #F9FAF8;
     margin-left: 150px;
+    margin-top: 15px;
 }
 /* COME HERE FIRST */
 
@@ -131,6 +142,23 @@ button {
     border-radius: 5px;
     border: 1px solid;
     border-color: transparent;
+}
+
+.sign-up-button-one {
+    display:flex;
+    margin-bottom: 80px;
+    margin-top: 15px;
+    margin-left: 148px;
+}
+
+.button-two {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-color: #F9FAF8;
+    width: 80px;
+    border-radius: 6px;
+
 }
 
 

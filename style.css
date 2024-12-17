@@ -20,7 +20,8 @@ body {
 .header {
     flex:1;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 150px;
     align-items: center;
     gap: 15px;
 }
@@ -34,11 +35,25 @@ body {
     margin-top: 15px;
 }
 
+.insertimagehere {
+    position:absolute;
+    border: 1em solid gray;
+    background-color: gray;
+    top: 200px;
+    left:920px;
+    height: 200px;
+    width: 500px;
+
+
+
+}
+
 .header-links {
     display:flex;
     justify-content: space-between;
     gap: 10px;
     margin-top: -80px;
+    margin-right: 192px;
 }
 
 
@@ -118,19 +133,7 @@ a {
     border-color:#3882f6
 }
 
-.footer {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #1F2937;
-    flex:0;
-    margin-top: auto;
-}
 
-.footer-content {
-    color:#e5e7eb;
-
-}
 button {
     background-color: #3882f6;
     color: #e5e7eb;
@@ -151,25 +154,62 @@ button {
     margin-left: 148px;
 }
 
-.button-two {
+.calltoaction-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    border: 1px solid;
-    border-color: #F9FAF8;
-    width: 80px;
-    border-radius: 6px;
-
+    margin-left: 460px;
+}
+.call-to-action-banner {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #3882f6;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+    padding:20px;
+    gap: 3px;
+    width: 700px;
+    height: 100px
+    border: 2em white solid;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 
+/* adjust after tuning the borders for the call to action banner */
+.button-two-container {
+    margin-top: 5px;
+    display:flex;
+    padding: 12px;
+}
 
+.button-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border-color:#F9FAF8;
+    border: 1px solid;
+    width: 100px;
+    background: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin-left: 500px;
+    margin-top: -60px;
+}
 
 .testimonial {
     box-sizing: border-box;
     display: block;
     background: #e5e7eb;
     margin-top:100px;
-    margin-bottom:50px;
+    margin-bottom:70px;
     padding: 100px;
     border: 6rem solid;
     border-color:#e5e7eb;
@@ -192,13 +232,19 @@ button {
     
 }
 
-.call-to-action-banner {
+.footer {
     display:flex;
-    background: #3882f6;
-    color: #F9FAF8;
-    flex-wrap: wrap;
     flex-direction: column;
-    padding:20px;
+    align-items: center;
+    background-color: #1F2937;
+    flex:0;
+    margin-top: auto;
+    margin-left: -460px;
+}
+
+.footer-content {
+    color:#e5e7eb;
+
 }
 
 .footer-title {
